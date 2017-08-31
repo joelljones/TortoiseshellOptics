@@ -1,0 +1,142 @@
+*, html, body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url("../images/glasses-bg.png");
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+nav span {
+  flex-grow: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.headline-flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.highlights-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  height: 8rem;
+}
+
+.highlight-1,
+.highlight-2,
+.highlight-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlight-1 img {
+  width: 3.5rem;
+}
+
+.highlight-2 img {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.highlight-2 img,
+.highlight-3 img {
+  width: 5rem;
+}
+
+.highlights-2 {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight-4,
+.highlight-5 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.highlight-4 {
+  padding-right: 5%;
+}
+
+.highlight-4 span,
+.highlight-5 span {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.highlight-4 p,
+.highlight-5 p {
+  padding-top: 1rem;
+}
+
+footer .container {
+  margin-top: 5rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer .container img {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}

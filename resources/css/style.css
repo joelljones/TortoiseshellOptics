@@ -46,6 +46,10 @@ nav ul li {
   padding-right: 2rem;
 }
 
+#menu {
+  display: none;
+}
+
 .headline-flex-container {
   display: flex;
   justify-content: flex-end;
@@ -139,4 +143,23 @@ footer .container img {
   padding-left: 4rem;
   padding-right: 1rem;
   height: 1.5rem;
+}
+
+/* TABLET*/
+@media only screen and (max-width: 1134px) {
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .headline {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
 }

@@ -1,5 +1,5 @@
 # Tortoiseshell Optics
-A responsive website with unique desktop, tablet, and mobile appearances for a fictional optometry office that provides low cost exams and frame fittings.
+A responsive website with unique desktop, tablet and mobile appearances for a fictional optometry office that provides low cost exams and frame fittings.
 
 - HTML and CSS
 
